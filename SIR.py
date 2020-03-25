@@ -12,7 +12,7 @@ I0, R0 = 1, 0
 # Everyone else, S0, is susceptible to infection initially.
 S0 = N - I0 - R0
 # Contact rate, beta, and mean recovery rate, gamma, (in 1/days).
-beta, gamma = 0.21601547, 1./10 #Beta se obtiene por ajuste exponencial de los casos reportados
+beta, gamma = 0.21561100554449764, 39./266 #Beta se obtiene por ajuste exponencial de los casos reportados
                                 # por el Ministerio de Salud de la República Argentina.
                                 # Gamma es aproximado la tasa de recuperados.
 # A grid of time points (in days)
